@@ -1,0 +1,53 @@
+.body{
+  background-color: hsl(218, 28%, 13%);
+  min-height: 100vh
+  
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(218, 28%, 13%);
+}
+li{
+  float: right;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: hsl(218, 28%, 13%)
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: tangerine;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+p{
+text-align: center;
+color:white;
+font-family: tangerine;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+}
+input{
+  text-align: center;
+  margin: auto;
+  display: block;
+  color: white;
+  background-color: hsl(198, 99%, 58%);
+}

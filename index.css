@@ -32,7 +32,7 @@ h1{
   text-align: center;
   color: white;
   font-family: tangerine;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
 }
@@ -50,4 +50,46 @@ input{
   display: block;
   color: white;
   background-color: hsl(198, 99%, 58%);
+}
+.Fylostore{
+  margin: 50px auto;
+  text-align: center;
+  width: 100%
+}
+#img-intro{
+  width: 400px;
+  height:300px;
+}
+@media only screen and (min-width:375px)
+{
+  #img-intro{
+    width: 400px;
+    height:300px;
+  }
+}
+a{
+  color: lightseagreen;
+}
+.img-intro{
+  width: 400px;
+  height: 300px;
+}
+.img-box{
+  border: 1px solid;
+  padding: 10px;
+  background-color: hsl(219, 30%, 18%);
+  width: 80%;
+  margin: 10px 0;
+}
+.founder{
+  display: flex;
+}
+.profile{
+  border-radius: 50%;
+}
+.myInput{
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  width: 90%;
 }
